@@ -1,0 +1,71 @@
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.input input {
+  width: 80%;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input button {
+  width: 20%;
+  background-color: rgb(45, 196, 103);
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+}
+
+.list {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 50%;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+.listItem span {
+  padding-right: 20px;
+}
+.done {
+  text-decoration: line-through;
+}
+.btns {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.edit {
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  padding: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  cursor: pointer;
+}
+.delete {
+  cursor: pointer;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 10px;
+  background-color: tomato;
+}
+
+.edit:hover,
+.delete:hover {
+  opacity: 0.9;
+}
